@@ -1,4 +1,7 @@
-import checkingLife from '../src/app';
+/* eslint-disable linebreak-style */
+/* eslint-disable import/no-unresolved */
+// eslint-disable-next-line import/extensions
+import checkingLife from '../src/js/app';
 
 test('checkingLife >50', () => {
   const result = checkingLife({ name: 'Маг', health: 60 });

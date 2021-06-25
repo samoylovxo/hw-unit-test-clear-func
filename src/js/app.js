@@ -1,10 +1,6 @@
-'use strict';
-
+/* eslint-disable linebreak-style */
+// eslint-disable-next-line consistent-return
 export default function checkingLife(player) {
-  // if (player.health == 0 || player.health < 0) {
-  //   return 'dead';
-  // }
-
   if (player.health > 50) {
     return 'healthy';
   }
