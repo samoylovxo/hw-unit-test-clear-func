@@ -9,7 +9,5 @@ export default function checkingLife(player) {
     return 'wounded';
   }
 
-  if (player.health < 15) {
-    return 'critical';
-  }
+  return 'critical';
 }

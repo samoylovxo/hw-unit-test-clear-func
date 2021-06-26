@@ -28,7 +28,7 @@ test('checkingLife >15', () => {
   expect(result).toBe('wounded');
 });
 
-test('checkingLife <15', () => {
+test('checkingLife <15 || other', () => {
   const result = checkingLife({ name: 'Маг', health: 10 });
   expect(result).toBe('critical');
 });
